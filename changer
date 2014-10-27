@@ -1,0 +1,20 @@
+import java.util.Scanner();
+class hrminsec {
+public static void main(String[] args){
+new Scanner user = new Scanner(System.in);
+int info = user.nextInt();
+int start;
+int hr;
+int min;
+int sec;
+start=20000;
+hr=start/3600;
+min=start%3600/60;
+sec=start%3600%60;
+System.out.println(info);
+System.out.println(start);
+System.out.println(hr);
+System.out.println(min);
+System.out.println(sec);
+}
+}
